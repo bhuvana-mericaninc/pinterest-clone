@@ -8,7 +8,7 @@ const handler = NextAuth({
         }),
         
       ],
-      // Callbacks for various authentication events
+
  
     
 },
