@@ -82,8 +82,7 @@ function Form() {
             onChange={(e)=>setTitle(e.target.value)}
         className='text-[35px] outline-none font-bold w-full
         border-b-[2px] border-gray-400 placeholder-gray-400'/>
-        <h2 className='text-[12px] mb-8 w-full  text-gray-400'>The first 40 Charaters are 
-        what usually show up in feeds</h2>
+        <h2 className='text-[12px] mb-8 w-full  text-gray-400'>only 50 character you can type!</h2>
         <UserTag user={session?.user} />
         <textarea type="text"
           onChange={(e)=>setDesc(e.target.value)}

@@ -50,6 +50,10 @@ function Header() {
          text-white p-3 px-6 rounded-full
          text-[25px]
           hidden md:block' onClick={()=>router.push('/')}>Home</button>
+            <button className='bg-black
+         text-white p-3 px-6 rounded-full
+         text-[25px]
+          hidden md:block' onClick={()=>router.push('/')}>Explore</button>
         <button className='font-semibold p-3 px-6 bg-green-500
          rounded-full text-[25px]' 
          onClick={()=>onCreateClick()}>Create</button>
